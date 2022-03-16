@@ -13026,7 +13026,7 @@ function handleMouseClick(event) {
         return
     }
 
-    if(event.target.matches("[data-delete")) {
+    if(event.target.matches("[data-delete]")) {
         deleteKey()
         return
     }
