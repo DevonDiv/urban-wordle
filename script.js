@@ -13185,7 +13185,6 @@ function findWord() {
         targetWord = word.word.toLowerCase()
         definition = word.definition
         definition = definition.substring(0, 300)
-        console.log(`TARGET WORD: ${targetWord}`)
         dictionary.push(targetWord)
       }
     })
