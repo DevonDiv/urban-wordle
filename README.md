@@ -1,6 +1,6 @@
 # Urban Wordle
 
-## Link to Live Project - Project Still in Development
+## Link to Live Project - https://sharp-goldberg-2f8e3e.netlify.app/
 
 ## Description
 
