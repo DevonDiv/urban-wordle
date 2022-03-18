@@ -13176,6 +13176,8 @@ function danceTiles(tiles) {
 }
 
 function findWord() {
+    targetWord = defaultWords[randomNumber]
+    definition = defaultDefinitions[randomNumber]
   fetchedData = fetch("https://api.urbandictionary.com/v0/random")
   .then(response => response.json())
   .then(data => {
@@ -13190,7 +13192,7 @@ function findWord() {
     })
   })
   .catch(error => {
-    console.log(error)
+    console.error(error)
   })
 }
 
