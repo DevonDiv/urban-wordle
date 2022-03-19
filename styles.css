@@ -214,3 +214,16 @@ body {
 .alert.hide {
     opacity: 0;
 }
+
+
+@media screen and (max-width: 510px) {
+    .keyboard {
+        grid-template-columns: repeat(20, minmax(auto, 1.5em));
+        grid-auto-rows: 5em;
+    }
+
+    .guess-grid {
+        grid-template-columns: repeat(5, 6em);
+        grid-template-rows: repeat(6, 6em);
+    }
+}
